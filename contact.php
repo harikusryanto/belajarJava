@@ -41,9 +41,9 @@ include_once("config.php"); ?>
 					<div class="menu">
 						<ul class="nav nav-tabs" role="tablist">
 							<li role="presentation"><a href="index.php">Beranda</a></li>
-							<li role="presentation"><a href="latihan.html">Latihan Java</a></li>
 							<li role="presentation"><a href="tutor.html">Tutorial Java</a></li>
-							<li role="presentation"><a href="tentang.html">Tentang</a></li>
+							<li role="presentation"><a href="materi.php">Materi Java</a></li>
+							<li role="presentation"><a href="latihan.php">Latihan Java</a></li>
 							<li role="presentation"><a href="contact.php" class="active">Kontak</a></li>						
 						</ul>
 					</div>
@@ -53,15 +53,14 @@ include_once("config.php"); ?>
     </header><!--/header-->	
 	
 	<div class="map">
-		<iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Kuningan,+Jakarta+Capital+Region,+Indonesia&amp;aq=3&amp;oq=kuningan+&amp;sll=37.0625,-95.677068&amp;sspn=37.410045,86.572266&amp;ie=UTF8&amp;hq=&amp;hnear=Kuningan&amp;t=m&amp;z=14&amp;ll=-6.238824,106.830177&amp;output=embed">
-		</iframe>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.6207598678843!2d101.42331541475339!3d0.5701811995840209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d5ab67086f2e89%3A0x65a24264fec306bb!2sPoliteknik+Caltex+Riau!5e0!3m2!1sid!2sid!4v1531984847794" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 	</div>
 	
 	<section class="contact-page">
         <div class="container">
             <div class="text-center">        
-                <h2>Drop Your Message</h2>
-                <h4>Isi kesan dan pesan kritikan anda ke kami.</h4>
+                
+                <h4>Isi kritikan anda ke kami.</h4>
             </div> 
             <div class="row contact-wrap"> 
                 <div class="status alert alert-success" style="display: none"></div>
@@ -95,6 +94,11 @@ include_once("config.php"); ?>
     </section><!--/#contact-page-->
 	
 	
+	</figure>
+			</div>
+		</div>
+	</div>
+		<br>
 	<footer>
 		<div class="container">
 			<div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
@@ -103,38 +107,29 @@ include_once("config.php"); ?>
 					<ul>
 						<li><i class="fa fa-home fa"></i>Politeknik Caltex Riau, Pekanbaru </li>
 						<li><i class="fa fa-phone fa"></i> +28281</li>
-						<li><i class="fa fa-envelope fa"></i> Pcr@mahasiswa.pcr.ac.id</li>
 					</ul>
 				</div>
 			</div>
-			<div>
+			
 			<div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">				
-				<div class="text-center">
-					<h4>Support by</h4>
+				<div class="container">
+					<h4>Mulai Belajar</h4>
 					<ul class="sidebar-gallery">
-						<li><a href="#"><img src="img/C.png" alt="" width="70" /></a></li>
-						<li><a href="#"><img src="img/js.png" alt="" width="70" /></a></li>
-						<li><a href="#"><img src="img/h4.jpg" alt="" width="100" /></a></li>
-						<li><a href="#"><img src="img/java.jpg" alt="" width="70" /></a></li>
-						<li><a href="#"><img src="img/android.jpg" alt="" width="100" /></a></li>					
+						<div class="container">
+						<li><a href="latihan.php">Latihan</a></li>
+						<ll><a href="https://www.compilejava.net/">Ngoding Online</a></ul>
+				
 					</ul>
 				</div>
 			</div>
 			
 			<div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">				
-				<div class="">
-					<h4>Daftar Premium</h4>
-					<p>Daftar Email Segera !</p>
-					<div class="btn-gamp">		
-						<input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter Email">
-					</div>
-					<div class="btn-gamp">
-						<a type="submit" class="btn btn-default">Kirim</a>
-					</div>
+				<div class="container">
+					<h4>Kontak Kami</h4>
+					<div class="container">
+					<i class="fa fa-envelope fa"></i> Pcr@mahasiswa.pcr.ac.id</li>
 			</div>
-			</div>
-			</div>
-			</div>			
+			
 		</div>	
 	</footer>
 	
@@ -143,17 +138,14 @@ include_once("config.php"); ?>
 			<div class="social-icon">
 				<div class="col-md-4">
 					<ul class="social-network">
-						<li><a href="#" class="fb tool-tip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#" class="twitter tool-tip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#" class="gplus tool-tip" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
-						<li><a href="#" class="linkedin tool-tip" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="#" class="ytube tool-tip" title="You Tube"><i class="fa fa-youtube-play"></i></a></li>
+						<li><a href="https://www.facebook.com/" class="fb tool-tip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://twitter.com/" class="twitter tool-tip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://plus.google.com/" class="gplus tool-tip" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="https://www.linkedin.com/" class="linkedin tool-tip" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="https://www.youtube.com/" class="ytube tool-tip" title="You Tube"><i class="fa fa-youtube-play"></i></a></li>
 					</ul>	
 				</div>
 			</div>
-			</div>						
-		</div>				
-	</div>
 	
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.js"></script>		

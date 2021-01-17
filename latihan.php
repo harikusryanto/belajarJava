@@ -38,11 +38,12 @@
                 <div class="navbar-collapse collapse">							
 					<div class="menu">
 						<ul class="nav nav-tabs" role="tablist">
-							<li role="presentation"><a href="index.php"> Beranda</a></li>
-							<li role="presentation"><a href="tutor.html" class="active">Tutorial Java</a></li>
+							<li role="presentation"><a href="index.php">Beranda</a></li>
+							<li role="presentation"><a href="tutor.html">Tutorial Java</a></li>
 							<li role="presentation"><a href="materi.php">Materi Java</a></li>
-							<li role="presentation"><a href="latihan.php">Latihan Java</a></li>
-							<li role="presentation"><a href="contact.php">Kontak</a></li>						
+							<li role="presentation"><a href="latihan.php" class="active">Latihan Java</a></li>							
+							<li role="presentation"><a href="contact.php">Kontak</a></li>	
+						    					
 						</ul>
 					</div>
 				</div>		
@@ -50,89 +51,89 @@
         </nav><!--/nav-->		
     </header><!--/header-->	
 	
-	<div class="gallery">
-		<div class="text-center">
-			<h2>Tutorial Java</h2>
-			<p></p>
-		</div>
-		<div class="container">		
-			<div class="col-md-4">
-				<figure class="effect-marley">
-					<video src="video/video.mp4" width="300" height="300" controls="controls"></video>
-					<figcaption>
-						<p>VARIABEL DAN TIPE DATA.</p>				
-					</figcaption>			
-				</figure>
-			</div>
-			<div class="col-md-4">
-				<figure class="effect-marley">
-					<video src="video/video2.mp4" width="300" height="300" controls="controls"></video>
-					<figcaption>
-						<p>PENGULANGAN DI JAVA.</p>				
-					</figcaption>			
-				</figure>
-			</div>
-			<div class="col-md-4">
-				<figure class="effect-marley">
-					<video src="video/video3.mp4" width="300" height="300" controls="controls"></video>
-					<figcaption>
-						<p>OPERATOR ARITMATIKA.</p>				
-					</figcaption>			
-				</figure>
-			</div>
-		</div>
-		
+	<div class="services">
 		<div class="container">
-			<div class="col-md-4">
-				<figure class="effect-marley">
-					<video src="video/video4.mp4" width="300" height="300" controls="controls"></video>
-					<figcaption>
-						<p> IF ELSE IF</p>			
-					</figcaption>			
-				</figure>
-			</div>
-			<div class="col-md-4">
-				<figure class="effect-marley">
-					<video src="video/video5.mp4" width="300" height="300" controls="controls"></video>
-					<figcaption>
-						<p>SWITCH.</p>				
-					</figcaption>			
-				</figure>
-			</div>
-			<div class="col-md-4">
-				<figure class="effect-marley">
-					<video src="video/video6.mp4" width="300" height="300" controls="controls"></video>
-					<figcaption>
-						<p>ARRAY.</p>				
-					</figcaption>			
-				</figure>
-			</div>
-		</div>
+			<div class="text-center">
+				<h2>Yang harus Kamu Jawab !</h2>			
+				<div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+					<img src="img/java.jpg" alt="" width="200" height="200">
+					<h3> Variabel dan Tipe Data</h3>
+					<button class="btn btn-primary btn-lg"> <a href="admin_soal/soal1/nyerah.php">Jawab Soal</button>
 
-		<div class="container">
-			<div class="col-md-4">
-				<figure class="effect-marley">
-					<video src="video/video7.mp4" width="300" height="300" controls="controls"></video>
-					<figcaption>
-						<p> EXCEPTION</p>			
-					</figcaption>			
-				</figure>
+				</div>
+				<div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+					<img src="img/java.jpg" alt="" width="200" height="200">
+					<h3>Pengulangan di Java</h3>
+					<button class="btn btn-primary btn-lg"> <a href="admin_soal/soal2/nyerah2.php">Jawab Soal</button>
+				</div>
+				<div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
+					<img src="img/java.jpg" alt="" width="200" height="200">	
+					<h3>Operator Aritmatika</h3>
+					<button class="btn btn-primary btn-lg"> <a href="admin_soal/soal3/nyerah3.php">Jawab Soal</button>
+				</div>
+				<div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms">
+					<img src="img/java.jpg" alt="" width="200" height="200">
+					<h3>If Else if</h3>
+					<button class="btn btn-primary btn-lg"> <a href="admin_soal/soal4/nyerah4.php">Jawab Soal</button>
+				</div>
 			</div>
-			<div class="col-md-4">
-				<figure class="effect-marley">
-					<video src="video/video8.mp4" width="300" height="300" controls="controls"></video>
-					<figcaption>
-						<p>PEWARISAN.</p>				
-					</figcaption>			
-				</figure>
+		</div>
+		<br>
+		<br>
+		<div class="text-center">
+			<div class="container">			
+				<div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+					<img src="img/java.jpg" alt="" width="200" height="200">
+					<h3>SWITCH</h3>
+					<button class="btn btn-primary btn-lg"> <a href="admin_soal/soal5/nyerah5.php">Jawab Soal</button>
+				</div>
+				<div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+					<img src="img/java.jpg" alt="" width="200" height="200">
+					<h3>Array</h3>
+					<button class="btn btn-primary btn-lg"> <a href="admin_soal/soal6/nyerah6.php">Jawab Soal</button>
+				</div>
+				<div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
+					<img src="img/java.jpg" alt="" width="200" height="200">
+					<h3>Perulangan While</h3>
+					<button class="btn btn-primary btn-lg"> <a href="admin_soal/soal7/nyerah7.php">Jawab Soal</button>
+				</div>
+				<div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms">
+				<img src="img/java.jpg" alt="" width="200" height="200">
+					<h3>Perulangan For</h3>
+					<button class="btn btn-primary btn-lg"> <a href="admin_soal/soal8/nyerah8.php">Jawab Soal</button>
+				</div>
 			</div>
-			<div class="col-md-4">
-				<figure class="effect-marley">
-					<video src="video/video9.mp4" width="300" height="300" controls="controls"></video>
-					<figcaption>
-						<p>THREADS.</p>				
-					</figcaption>			
-				</figure>
+		</div>
+		<br>
+		<br>
+		<div class="text-center">
+			<div class="container">			
+				<div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+					<img src="img/java.jpg" alt="" width="200" height="200">
+					<h3>Struktur Kontrol</h3>
+					<button class="btn btn-primary btn-lg"> <a href="admin_soal/soal9/nyerah9.php">Jawab Soal</button>
+				</div>
+				<div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+					<img src="img/java.jpg" alt="" width="200" height="200">
+					<h3>Exception</h3>
+					<button class="btn btn-primary btn-lg"> <a href="admin_soal/soal10/nyerah10.php">Jawab Soal</button>
+				</div>
+				<div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
+					<img src="img/java.jpg" alt="" width="200" height="200">
+					<h3>Pewarisan</h3>
+					<button class="btn btn-primary btn-lg"> <a href="admin_soal/soal11/nyerah11.php">Jawab Soal</button>
+				</div>
+				<div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms">
+				<img src="img/java.jpg" alt="" width="200" height="200">
+					<h3>THREADS</h3>
+					<button class="btn btn-primary btn-lg"> <a href="admin_soal/soal12/nyerah12.php">Jawab Soal</button>
+				
+				</div>
+			</div>
+		</div>
+	</div>	
+	
+		</figure>
 			</div>
 		</div>
 	</div>

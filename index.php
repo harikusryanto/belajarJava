@@ -40,9 +40,9 @@
 					<div class="menu">
 						<ul class="nav nav-tabs" role="tablist">
 							<li role="presentation"><a href="index.php" class="active">Beranda</a></li>
-							<li role="presentation"><a href="latihan.html">Latihan Java</a></li>
 							<li role="presentation"><a href="tutor.html">Tutorial Java</a></li>
-							<li role="presentation"><a href="tentang.html">Tentang</a></li>
+							<li role="presentation"><a href="materi.php">Materi Java</a></li>
+							<li role="presentation"><a href="latihan.php">Latihan Java</a></li>
 							<li role="presentation"><a href="contact.php">Kontak</a></li>						
 						</ul>
 					</div>
@@ -66,7 +66,7 @@
 						<img src="img/h2.jpg" class="img-responsive" alt="" width="2000"> 
 						<div class="carousel-caption">
 							<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">								
-								<h2><span>Selamat Datang</span></h2>
+								
 							</div>
 							<div class="col-md-10 col-md-offset-1">
 								<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">								
@@ -145,50 +145,22 @@
 	<div class="about">
 		<div class="container">
 			<div class="text-center">
-				<h2> Premium Member </h2>
+				<h2> JAVA  </h2>
 				<div class="col-md-10 col-md-offset-1">
-					<p>Premium Member merupakan sistem keanggotaan eksklusif bagi pembaca CodePolitan yang ingin secara serius belajar pemrograman. Berbagai konten premium dengan kualitas tinggi telah kami susun untuk mendukung proses belajar para Premium Member. Kami juga memberikan berbagai fasilitas khusus yang hanya bisa diakses oleh Premium Member untuk mendukung proses belajarnya. Fasilitas tersebut antara lain berupa privat chat group, forum diskusi dan tanya Jawab, newsletter rutin, webinar eksklusif dengan nara sumber praktisi dan tokoh dalam bidang IT.</p>
+					<h4>Java adalah bahasa pemrograman yang dapat membuat seluruh bentuk aplikasi, desktop, web, mobile dan lainnya, sebagaimana dibuat dengan menggunakan bahasa pemrograman yang lainnya. Bahasa pemrograman java memiliki gaya yaitu pemrograman berorientasi objek atau lebih dikenal dengan OOP. Java mengadopsi gaya bahasa dari C dan C++, Java mengambil kelebihannya dan meninggalkan kekurangan dari bahasa tersebut. Bahasa pemrograman java dapat dijalankan disetiap sistem operasi, oleh sebab itu java banyak digunakan oleh banyak programmer . Java memiliki slogan yaitu “Write once, run anywhere” atau disebut juga dengan “Tulis sekali, jalankan dimanapun”.Bahasa yang berorientasi pada objek pun mempunyai karakteristik yang sama dengan objek-objek di dunia nyata. Yaitu status yang dalam bahasa pemrograman biasanya disimpan sebagai Variabel dan perilaku yang diimplementasikan sebagai Method..</h4>
 				</div>
 		
 				<div class="col-md-6 col-sm-6 col-xs-6">
-					<div class="btn-gamp"><a href="regis/regis.html">Daftar</a></div>
+					<div class="btn-gamp"><a href="latihan.php">Latihan</a></div>
 				</div>
 				<div class="col-md-6 col-sm-6 col-xs-6">
-					<div class="gamp-btn"><a href="latihan.html">Pelajari</a></div>
+					<div class="gamp-btn"><a href="tutor.html">Pelajari</a></div>
 				</div>
 				
 			</div>	
 		</div>			
 	</div>
-	<hr>
-	
-	<div class="services">
-		<div class="container">
-			<div class="text-center">
-				<h2></h2>
-			</div>
-			<div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-				<img src="img/C.png" alt="" width="200" height="200">
-				<h3>C ++ </h3>
-				<p>C++ adalah bahasa pemrograman komputer yang di buat oleh (Bjarne Stroustrup) merupakan perkembangan dari bahasa C dikembangkan di Bell Labs (Dennis Ritchie) pada awal tahun 1970-an. Bahasa C++ merupakan turunan dari bahasa sebelumnya yaitu BCL.</p>
-			</div>
-			<div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-				<img src="img/python.png" alt="" width="200" height="200">
-				<h3>Python</h3>
-				<p>Python adalah bahasa pemrograman interpretatif multiguna dengan filosofi perancangan yang berfokus pada tingkat keterbacaan kode.Python diklaim sebagai bahasa yang menggabungkan kapabilitas, kemampuan, dengan sintaksis kode yang sangat jelas.</p>
-			</div>
-			<div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
-				<img src="img/html.jpg" alt="" width="200" height="200">
-				<h3>HTML</h3>
-				<p>HTML (Hyper Text MarkUp Language) adalah Bahasa markup standar untuk pembuatan halaman website. Dengan HTML kita dapat membuat halaman website sesuai standar dengan pengkodean tag-tag HTML.</p>
-			</div>
-			<div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms">
-				<img src="img/java.jpg" alt="" width="200" height="200">
-				<h3>Java</h3>
-				<p>Java adalah bahasa pemrograman yang dapat dijalankan di berbagai komputer termasuk telepon genggam. Bahasa ini awalnya dibuat oleh James Gosling saat masih bergabung di Sun Microsystems saat ini merupakan bagian dari Oracle dan dirilis tahun 1995.</p>
-			</div>
-		</div>			
-	</div>
+
 	<div class="gallery">
 		<div class="text-center">
 			<h2>Artikel Terbaru</h2>
@@ -238,35 +210,27 @@
 					<ul>
 						<li><i class="fa fa-home fa"></i>Politeknik Caltex Riau, Pekanbaru </li>
 						<li><i class="fa fa-phone fa"></i> +28281</li>
-						<li><i class="fa fa-envelope fa"></i> Pcr@mahasiswa.pcr.ac.id</li>
 					</ul>
 				</div>
 			</div>
 			
 			<div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">				
-				<div class="text-center">
-					<h4>Support by</h4>
+				<div class="container">
+					<h4>Mulai Belajar</h4>
 					<ul class="sidebar-gallery">
-						<li><a href="#"><img src="img/C.png" alt="" width="70" /></a></li>
-						<li><a href="#"><img src="img/js.png" alt="" width="70" /></a></li>
-						<li><a href="#"><img src="img/h4.jpg" alt="" width="100" /></a></li>
-						<li><a href="#"><img src="img/java.jpg" alt="" width="70" /></a></li>
-						<li><a href="#"><img src="img/android.jpg" alt="" width="100" /></a></li>					
+						<div class="container">
+						<li><a href="latihan.php">Latihan</a></li>
+						<ll><a href="https://www.compilejava.net/">Ngoding Online</a></ul>
+				
 					</ul>
 				</div>
 			</div>
 			
 			<div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">				
-				<div class="">
-					<h4>Daftar Premium</h4>
-					<p>Daftar Email Segera !</p>
-					<div class="btn-gamp">		
-						<input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter Email">
-					</div>
-					<div class="btn-gamp">
-						<a type="submit" class="btn btn-default">Kirim</a>
-					</div>
-				
+				<div class="container">
+					<h4>Kontak Kami</h4>
+					<div class="container">
+					<i class="fa fa-envelope fa"></i> Pcr@mahasiswa.pcr.ac.id</li>
 			</div>
 			
 		</div>	
@@ -277,11 +241,11 @@
 			<div class="social-icon">
 				<div class="col-md-4">
 					<ul class="social-network">
-						<li><a href="#" class="fb tool-tip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#" class="twitter tool-tip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#" class="gplus tool-tip" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
-						<li><a href="#" class="linkedin tool-tip" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="#" class="ytube tool-tip" title="You Tube"><i class="fa fa-youtube-play"></i></a></li>
+						<li><a href="https://www.facebook.com/" class="fb tool-tip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://twitter.com/" class="twitter tool-tip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://plus.google.com/" class="gplus tool-tip" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="https://www.linkedin.com/" class="linkedin tool-tip" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="https://www.youtube.com/" class="ytube tool-tip" title="You Tube"><i class="fa fa-youtube-play"></i></a></li>
 					</ul>	
 				</div>
 			</div>
